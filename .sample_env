@@ -1,0 +1,11 @@
+# SERVER DETAILS
+SERVER_MODE=local # local / debug / release
+PORT=8080
+
+# MYSQL DETAILS
+DB_HOST=localhost
+DB_DRIVER=mysql 
+DB_USER=root
+DB_PASS=root
+DB_NAME=databasename
+DB_PORT=8889

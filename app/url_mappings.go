@@ -10,4 +10,9 @@ func mapUrls() {
 
 	router.GET("/users/:user_id", users.GetUser)
 	router.POST("/users", users.CreateUser)
+
+	// v1 := router.Group("/v1")
+	// {
+	// 	v1.GET("/users/:user_id", users.GetUser)
+	// }
 }
